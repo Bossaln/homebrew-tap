@@ -1,6 +1,6 @@
 cask "notchai" do
-  version "0.2.1"
-  sha256 "9bc8103913b1d57f5866dbcd2ef9fd6432eb860541661979f50cdd44e745871e"
+  version "0.3.0"
+  sha256 "e94055040733f7befaedbc8997df94dc5b37cabcddac235dc0fe7d1ae2e4191e"
 
   url "https://github.com/Bossaln/notchai/releases/download/v#{version}/notchai-#{version}.zip"
   name "notchai"
