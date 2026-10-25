@@ -1,6 +1,6 @@
 cask "lumo" do
-  version "0.8.2"
-  sha256 "591bb2168a5f3c1a10224b8009fd645d7516b05d40691e2aef9b2d9695dc0131"
+  version "0.9.0"
+  sha256 "aa95b67537fc4a132231f47622e5bbd49499d7b496339bf9b4d097d08f391b8c"
 
   url "https://github.com/Bossaln/lumo/releases/download/v#{version}/lumo-#{version}.zip"
   name "lumo"
