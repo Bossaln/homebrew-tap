@@ -1,6 +1,6 @@
 cask "lumo" do
-  version "0.8.0"
-  sha256 "729b90f2c51a3d0e747ee6cfabfb4891413ffe52873fcd7483f988d028444fc0"
+  version "0.8.1"
+  sha256 "6a2c6a7a72d29ca259507e2b9425c9f7ffe73a4916ef28b6d01b750a87ae104c"
 
   url "https://github.com/Bossaln/lumo/releases/download/v#{version}/lumo-#{version}.zip"
   name "lumo"
@@ -19,8 +19,9 @@ cask "lumo" do
 
   # lumo is signed with its own certificate, not notarized by Apple. Without removing the quarantine flag
   # Gatekeeper would refuse to open it ("Apple could not verify …").
-  # Afterwards a pink GT-R drives off – lumo is installed, let's go. The animation is the small program
-  # lumo-welcome inside the app (Sources/lumo-welcome); it always exits 0.
+  # Afterwards a short animation plays: a MacBook whose notch lights up, a signal from Claude Code, music next to
+  # the camera and a pink GT-R driving off – lumo is installed, let's go. It is the small program lumo-welcome
+  # inside the app (Sources/lumo-welcome); it always exits 0.
   if respond_to?(:postflight_steps)
     # Homebrew 7 and later: declarative install steps instead of Ruby code.
     postflight_steps do
